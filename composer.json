@@ -1,0 +1,24 @@
+{
+    "name": "ender/container",
+    "description": "this demo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ender\\Container\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ender",
+            "email": "echacon@promarketingchile.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mockery/mockery": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
