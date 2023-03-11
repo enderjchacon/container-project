@@ -2,7 +2,7 @@
 
 namespace Ender\Container;
 
-use Ender\Container;
+use Ender\Container\Container;
 
 abstract class Provider 
 {
